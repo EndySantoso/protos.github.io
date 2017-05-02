@@ -201,6 +201,7 @@ footer .glyphicon {
   background-color: red;
   color: white;
   background: linear-gradient(to right, #fe8c00, #f83600);
+  height: 500px;
 }
 
 #contact h2{
@@ -216,6 +217,7 @@ footer .glyphicon {
 footer {
   background: linear-gradient(to right, #4CB8C4, #3CD3AD);
   color: white;
+  height: 300px;
 }
 
 footer h5 {
