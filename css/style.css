@@ -1,0 +1,232 @@
+body {
+  background-color: #f6f6f6;
+}
+
+/*NAVIGATION AREA*/
+#navigation {
+  width: auto;
+  height: 1px;
+  color: white;
+}
+
+/*.logo {
+  font-size: 20px;
+  padding: 5px;
+}*/
+
+.menu {
+  margin-left: 31%;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/*CAROUSEL AREA*/
+.carousel {
+  /*height: 500px;*/
+}
+
+.imageSlider {
+  height: 100px;
+}
+
+/*COMPANY AREA*/
+#company {
+  height: 750px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  background-color: #66b9bf;
+  color: white;
+  background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+}
+
+.about h2 {
+  font-family: 'Rubik', cursive;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.about p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+.values h2 {
+  font-family: 'Rubik', cursive;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.values h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.values li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+/*PRODUCT*/
+#product {
+  background-color: #e37222;
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  height: 500px;
+  padding-top: 20px;
+  color: white;
+}
+
+#product h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#product h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+#item {
+  background: #70C1B3;
+  background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+  height: 500px;
+  color: white;
+}
+
+#item h2 {
+  font-family: 'Quicksand', monospace;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#item p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+/*GOOGLE MAP AREA*/
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+}
+
+/*FOOTER AREA*/
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+/*SLIDER EFEK*/
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 2s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.modal-body {
+  background-color: #f6f6f6;
+}
+
+.modal h4 {
+  font-family: 'Rubik', monospace;
+  font-size: 30px;
+}
+
+.modal p {
+  font-family: 'Quicksand', monospace;
+  font-size: 26px;
+}
+
+.modal li {
+  font-family: 'Quicksand', monospace;
+  font-size: 14px;
+}
+
+.modal th {
+  font-family: 'Quicksand', monospace;
+  font-size: 17px;
+  text-align: center;
+}
+
+.modal td {
+  font-family: 'Quicksand', monospace;
+  font-size: 14px;
+}
+
+#contact {
+  background-color: red;
+  color: white;
+  background: linear-gradient(to right, #fe8c00, #f83600);
+}
+
+#contact h2{
+  font-family: 'Quicksand', monospace;
+  font-size: 24px;
+}
+
+#contact p{
+  font-family: 'Quicksand', monospace;
+  font-size: 16px;
+}
+
+footer {
+  background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+  color: white;
+}
+
+footer h5 {
+  font-family: 'Quicksand', monospace;
+  font-size: 26px;
+}
+
+footer ul li {
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Quicksand', monospace;
+  font-size: 14px;
+  color: white;
+}
